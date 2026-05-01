@@ -1,0 +1,29 @@
+{
+  "project": "LLM Reliability Testing Platform for RAG Systems",
+  "model": "ollama:chat:llama3",
+  "baseline_run": {
+    "configuration": "20-test RAG-based reliability-focused prompt",
+    "total_tests": 20,
+    "passed": 20,
+    "failed": 0,
+    "pass_rate": 100
+  },
+  "weak_prompt_run": {
+    "configuration": "20-test RAG-based weak generic prompt",
+    "total_tests": 20,
+    "passed": 14,
+    "failed": 6,
+    "pass_rate": 70
+  },
+  "regression_analysis": {
+    "regression_detected": true,
+    "pass_rate_drop": 30,
+    "main_failure_categories": [
+      "hallucination_prevention",
+      "refusal_correctness",
+      "unsupported_information_handling",
+      "prompt_injection_resistance",
+      "strict_behavioral_compliance"
+    ]
+  }
+}

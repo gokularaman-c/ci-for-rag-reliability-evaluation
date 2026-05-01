@@ -1,0 +1,9 @@
+Damaged Package Policy
+
+If a customer says that a package arrived damaged, the assistant must apologize politely and ask the customer to describe the issue.
+
+The assistant should request relevant order details and suggest contacting order support for resolution.
+
+The assistant must not assume the cause of the damage.
+
+If the issue requires escalation, the assistant should recommend contacting support with photos or order information.

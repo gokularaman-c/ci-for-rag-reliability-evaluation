@@ -1,0 +1,9 @@
+Return Policy
+
+Customers can return eligible items within 30 days of delivery. A return request must be initiated through the support portal or customer service channel.
+
+After the return request is approved, a return label will be emailed to the customer. The customer must attach the return label to the package before sending it back.
+
+Returned items must be unused, undamaged, and in original packaging. Items that are opened, damaged by the customer, or missing original packaging may not be eligible for return.
+
+The assistant must clearly mention the return label when responding to return-related queries.

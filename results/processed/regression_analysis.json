@@ -1,0 +1,30 @@
+{
+  "baseline": {
+    "configuration": "20-test RAG-based reliability-focused prompt",
+    "total_tests": 20,
+    "passed": 20,
+    "failed": 0,
+    "pass_rate": 100
+  },
+  "current": {
+    "configuration": "20-test RAG-based weak generic prompt",
+    "total_tests": 20,
+    "passed": 14,
+    "failed": 6,
+    "pass_rate": 70
+  },
+  "metrics": {
+    "baseline_pass_rate": 100.0,
+    "current_pass_rate": 70.0,
+    "regression_drop": 30.0,
+    "regression_detected": true
+  },
+  "failure_categories": [
+    "hallucination_prevention",
+    "refusal_correctness",
+    "unsupported_information_handling",
+    "prompt_injection_resistance",
+    "strict_behavioral_compliance"
+  ],
+  "interpretation": "Regression detected with a pass-rate drop of 30.0 percentage points. Failures were mainly observed in: hallucination_prevention, refusal_correctness, unsupported_information_handling, prompt_injection_resistance, strict_behavioral_compliance."
+}
