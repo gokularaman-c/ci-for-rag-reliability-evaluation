@@ -306,18 +306,6 @@ The project demonstrates that RAG reliability can be tested using a CI-style wor
 
 The final outcome is a working prototype for repeatable reliability evaluation of RAG-based LLM question-answering systems.
 
-## Limitations
-
-The current implementation has the following limitations:
-
-- The knowledge base is small and controlled.
-- Retrieval is lightweight and keyword/category-based.
-- The test suite contains 20 reliability test cases.
-- Only Llama3 and Mistral were compared.
-- Evaluation mainly uses assertion-based checks.
-- Human evaluation is not included in the current version.
-- Full CI/CD automation is planned as future work.
-
 ## Author
 
 Gokularaman C  
